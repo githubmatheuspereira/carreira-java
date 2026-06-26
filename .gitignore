@@ -1,57 +1,18 @@
-<<<<<<< HEAD
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
-
-=======
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Pastas e arquivos do IntelliJ IDEA
+.idea/
 *.iml
+*.iws
 *.ipr
 
->>>>>>> 3e10ffa81bce2d3c07ce650c1e8dbafad138d866
-### Eclipse ###
-.apt_generated
+# Pastas de build
+out/
+bin/
+build/
+target/
+
+# Outros arquivos gerados ou de sistema
+.DS_Store
+.vscode/
 .classpath
-.factorypath
 .project
 .settings
-.springBeans
-.sts4-cache
-<<<<<<< HEAD
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-=======
->>>>>>> 3e10ffa81bce2d3c07ce650c1e8dbafad138d866
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-<<<<<<< HEAD
-=======
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
->>>>>>> 3e10ffa81bce2d3c07ce650c1e8dbafad138d866
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
