@@ -1,4 +1,4 @@
-package com.carreira.java.filme;
+package com.carreira.java.modulo02.filme;
 
 public class Filme {
 
@@ -10,7 +10,7 @@ public class Filme {
     int duracaoEmMinutos;
 
     void exibeInformacoes() {
-        System.out.printf("Nome do filme: %s\nAno de Lançamento: %d\nIncluído no plano: %b\nDuração: %d\n", nome, anoDeLancamento, incluidoNoPlano, duracaoEmMinutos);
+        System.out.printf("Nome do filme: %s\nAno de Lançamento: %d\nIncluído no plano: %b\nDuração: %s\n", nome, anoDeLancamento, incluidoNoPlano, duracao());
         System.out.println("Média de avaliações: " + calculaAvaliacao());
     }
 
@@ -21,5 +21,9 @@ public class Filme {
 
     double calculaAvaliacao() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
+    String duracao() {
+        return duracaoEmMinutos + " minutos";
     }
 }

@@ -1,4 +1,4 @@
-package com.carreira.java;
+package com.carreira.java.modulo02.desafios;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
