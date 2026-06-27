@@ -2,16 +2,31 @@ package com.carreira.java.modulo02.desafios;
 
 public class Principal {
     public static void main(String[] args) {
-        Pessoa pessoaJoao = new Pessoa();
+//        Pessoa pessoaJoao = new Pessoa();
+//
+//        pessoaJoao.nome = "João Machado";
+//        pessoaJoao.idade = 27;
+//        pessoaJoao.nacionalidade = "Brasil";
+//        pessoaJoao.altura = 1.76;
+//        pessoaJoao.peso = 80.5;
+//        pessoaJoao.sexo = "masculino";
+//        pessoaJoao.trabalhaRegistrado = false;
+//
+//        pessoaJoao.imprimir();
+//
+//        Calculadora calculadora = new Calculadora();
+//
+//        calculadora.somar(5,5);
+//        calculadora.subtrair(5,5);
 
-        pessoaJoao.nome = "João Machado";
-        pessoaJoao.idade = 27;
-        pessoaJoao.nacionalidade = "Brasil";
-        pessoaJoao.altura = 1.76;
-        pessoaJoao.peso = 80.5;
-        pessoaJoao.sexo = "masculino";
-        pessoaJoao.trabalhaRegistrado = false;
+        Musica musica1 = new Musica();
+        musica1.nomeMusica = "Oak para Java";
+        musica1.nomeArtista = "James Gosling";
+        musica1.anoLancamento = 1991;
+        musica1.duracao = 3.14;
+        musica1.participacao = "Patrick Naughton e Mike Sheridan";
+        musica1.produtorMusical = "Sun Microsystems";
 
-        pessoaJoao.imprimir();
+        musica1.exibirInformacao();
     }
 }
