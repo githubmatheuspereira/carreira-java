@@ -1,4 +1,4 @@
-package com.carreira.java;
+package com.carreira.java.modulo02.desafios;
 
 import java.text.MessageFormat;
 
