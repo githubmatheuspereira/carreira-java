@@ -20,12 +20,12 @@ public class Principal {
 //        calculadora.subtrair(5,5);
 
         Musica musica1 = new Musica();
-        musica1.nomeMusica = "Oak para Java";
-        musica1.nomeArtista = "James Gosling";
-        musica1.anoLancamento = 1991;
-        musica1.duracao = 3.14;
-        musica1.participacao = "Patrick Naughton e Mike Sheridan";
-        musica1.produtorMusical = "Sun Microsystems";
+        musica1.setNomeMusica("Oak para Java");
+        musica1.setNomeArtista("James Gosling");
+        musica1.setAnoLancamento(1991);
+        musica1.setDuracao(3.14);
+        musica1.setParticipacao("Patrick Naughton e Mike Sheridan");
+        musica1.setProdutorMusical("Sun Microsystems");
 
         musica1.exibirInformacao();
     }
