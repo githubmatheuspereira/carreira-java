@@ -28,15 +28,28 @@ public class Principal {
 //        musica1.setProdutorMusical("Sun Microsystems");
 //
 //        musica1.exibirInformacao();
+//
+//        ContaBancaria conta1 = new ContaBancaria();
+//
+//        conta1.setNome("IntelliJ IDEA");
+//        conta1.setSaldo(1998.99);
+//        conta1.setCartao("Conta Privada IDE");
+//        conta1.setAgencia(1001);
+//        conta1.setConta(201010);
+//
+//        conta1.entrarNaConta();
 
-        ContaBancaria conta1 = new ContaBancaria();
+        Livro livro1 = new Livro();
 
-        conta1.setNome("IntelliJ IDEA");
-        conta1.setSaldo(1998.99);
-        conta1.setCartao("Conta Privada IDE");
-        conta1.setAgencia(1001);
-        conta1.setConta(101010);
+        livro1.setNome("A Revolução dos Bichos");
+        livro1.setAutor("George Orwell");
+        livro1.setEditora("Companhia das Letras");
+        livro1.setPaginas(152);
+        livro1.setLancamento(1945);
+        livro1.setEdicao("2007");
+        livro1.setTemDigital(true);
 
-        conta1.entrarNaConta();
+        livro1.imprimirLivro();
+
     }
 }
