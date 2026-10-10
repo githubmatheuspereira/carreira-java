@@ -18,8 +18,11 @@ public class Titulo {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 
-    String duracao() {
-        return duracaoEmMinutos + " minutos";
+    int duracao() {
+        return duracaoEmMinutos;
     }
 
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
 }

@@ -13,7 +13,7 @@ public class Filme extends Titulo {
     }
 
     void exibeInformacoes() {
-        System.out.printf("Nome do filme: %s\nDiretor: %s\nAno de Lançamento: %d\nIncluído no plano: %b\nDuração: %s\n", nome, getDiretor(), anoDeLancamento, incluidoNoPlano, duracao());
+        System.out.printf("Nome do filme: %s\nDiretor: %s\nAno de Lançamento: %d\nIncluído no plano: %b\nDuração: %d\n", nome, getDiretor(), anoDeLancamento, incluidoNoPlano, duracao());
         System.out.println("Média de avaliações: " + calculaAvaliacao());
     }
 

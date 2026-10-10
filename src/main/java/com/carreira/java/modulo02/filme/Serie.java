@@ -23,6 +23,14 @@ public class Serie extends Titulo {
         this.episodiosPorTemporada = episodiosPorTemporada;
     }
 
+    @Override
+    public int getDuracaoEmMinutos() {
+
+        int totalMinutos = episodiosPorTemporada * minutosPorEpisodio;
+
+        return totalMinutos;
+    }
+
     public boolean isAtiva() {
         return ativa;
     }
