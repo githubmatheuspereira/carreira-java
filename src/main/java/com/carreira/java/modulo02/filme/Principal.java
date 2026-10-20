@@ -1,6 +1,7 @@
 package com.carreira.java.modulo02.filme;
 
 import com.carreira.java.modulo02.filme.calculos.CalculadoraDeTempo;
+import com.carreira.java.modulo02.filme.calculos.FiltroRecomendacao;
 
 public class Principal {
 
@@ -11,12 +12,12 @@ public class Principal {
         interstellar.incluidoNoPlano = true;
         interstellar.duracaoEmMinutos = 180;
         interstellar.setDiretor("Christopher Edward Nolan");
-//
-//        interstellar.avalia(10);
-//        interstellar.avalia(8);
-//        interstellar.avalia(10);
-//        interstellar.avalia(8);
-//
+
+        interstellar.avalia(10);
+        interstellar.avalia(8);
+        interstellar.avalia(10);
+        interstellar.avalia(8);
+
 //
 //        interstellar.exibeInformacoes();
 //
@@ -42,6 +43,9 @@ public class Principal {
         calculadora.inclui(friendss);
         calculadora.inclui(interstellar);
         calculadora.tempoParaMaratonar();
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(interstellar);
 
 
     }
